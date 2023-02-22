@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/folder/bg-main-mobile.png);
+  background-position: 32vw -38vw;
+  font-family: 'IBM Plex Sans', sans-serif;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-x: hidden;
+}
+/* top part of mobile version */
+.conteiner {
+  width: 100vw;
+}
+.pattern-of-left {
+  display: none;
+}
+.header-logo {
+  width: 38vw;
+  height: 9vw;
+  color: #191826;
+  margin: 4rem 0 0 2rem;
+}
+.text-header {
+  width: 87.2vw;
+  height: 38vw;
+  margin: 2rem 0 0 2rem;
+  font-weight: 700;
+  font-size: 10vw;
+  line-height: 11vw;
+  letter-spacing: -0.45px;
+  color: #191826;
+}
+.text {
+  width: 87.2vw;
+  height: 43vw;
+  font-weight: 400;
+  font-size: 4.3vw;
+  line-height: 7vw;
+  color: #191826;
+  margin: 0 0 0 2rem;
+}
+
+/* middle part of mobile version */
+.black-part {
+  background-image: url(/folder/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: 14vw -1vw;
+  background-size: 70%;
+  width: 100vw;
+  height: 140vw;
+  border-radius: 3vw;
+  background-color: #191826;
+  margin-top: 20vw;
+}
+
+.ilustration {
+  width: 50vw;
+  position: absolute;
+  margin: -5rem 0 0 6rem;
+}
+.golden-part {
+  width: 100vw;
+  height: 120vw;
+  background-color: #fa7453;
+  border-radius: 3vw;
+  margin-top: -11rem;
+}
+
+.header-1 {
+  width: 80vw;
+  height: 13vw;
+  margin: 0 0 0 2rem;
+  color: #fcfaf9;
+  font-weight: 700;
+  font-size: 8vw;
+}
+.text-2 {
+  width: 80vw;
+  height: 40vw;
+  margin: 0 0 0 2rem;
+  color: #fcfaf9;
+  font-weight: 400;
+  font-size: 4.5vw;
+  line-height: 7vw;
+}
+
+.prise {
+  width: 21vw;
+  height: 14vw;
+  color: #fcfaf9;
+  font-size: 17vw;
+  font-weight: 700;
+  line-height: 16vw;
+  margin-left: 2rem;
+}
+.month {
+  margin: -2rem 0 0 8rem;
+  color: white;
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 8vw;
+  letter-spacing: -0.2px;
+}
+.ios {
+  width: 79vw;
+  height: 16vw;
+  margin-top: 5rem;
+  border-radius: 4vw;
+  background-color: #191826;
+}
