@@ -38,10 +38,11 @@ body {
   color: #191826;
 }
 .text {
-  width: 87.2vw;
+  width: 88vw;
   height: 43vw;
   font-weight: 400;
   font-size: 4.3vw;
+  font-family: 'IBM Plex Sans', sans-serif;
   line-height: 7vw;
   color: #191826;
   margin: 0 0 10rem 2rem;
@@ -51,7 +52,7 @@ body {
 .black-part {
   background-image: url(/folder/bg-pattern-2.svg);
   background-repeat: no-repeat;
-  background-position: 14vw -1vw;
+  background-position: 16vw -1vw;
   background-size: 70%;
   width: 100vw;
   height: 140vw;
@@ -67,10 +68,10 @@ body {
 }
 .golden-part {
   width: 100vw;
-  height: 120vw;
+  height: 140vw;
   background-color: #fa7453;
   border-radius: 3vw;
-  margin-top: -11rem;
+  margin-top: -10.5rem;
 }
 
 .header-1 {
@@ -80,14 +81,15 @@ body {
   color: #fcfaf9;
   font-weight: 700;
   font-size: 8vw;
+  padding-top: 3rem;
 }
 .text-2 {
   width: 80vw;
   height: 40vw;
-  margin: 0 0 0 2rem;
+  margin: 3rem 0 0 2rem;
   color: #fcfaf9;
   font-weight: 400;
-  font-size: 4.5vw;
+  font-size: 4.7vw;
   line-height: 7vw;
 }
 
@@ -111,7 +113,65 @@ body {
 .ios {
   width: 79vw;
   height: 16vw;
-  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0  0 2rem;
   border-radius: 4vw;
   background-color: #191826;
 }
+
+.ios-downolad{
+    width: 33vw;
+    font-size: 5vw;
+    margin: 0.1rem 0 0 0.5rem;
+    font-weight: 700;
+    line-height: 8vw;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+.Android{
+    width: 79vw;
+    height: 16vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0  0 2rem;
+    border-radius: 4vw;
+    background-color:#FCFAF9;
+}
+.android-download{
+    width: 42.9vw;
+    font-size: 5vw;
+    margin: 0 0 0 0.5rem;
+    font-weight: 700;
+    line-height: 8vw;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+/* button of mobile version */
+
+.button-logo {
+    width: 38vw;
+    height: 9vw;
+    color: #191826;
+    margin: 4rem 0 0 2rem;
+  }
+.text-3{
+    width: 87.2vw;
+    height: 28vw;
+    font-size: 5vw;
+    font-weight:400;
+    line-height: 7vw;
+    margin: 2rem 0 0 2rem;
+}
+.button-icons{
+  
+  margin: 4rem 0  5rem 2.5rem;
+ }
+ 
+ .icon-in,
+ .icon-tw {
+  margin-left: 5.33vw;
+
+ }
